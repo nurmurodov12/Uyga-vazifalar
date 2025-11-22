@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uyga vazifa</title>
+</head>
+
+<body>
+
+    <div style="border: 3px solid green; width: 50%; height: auto; background-color: rgb(209, 199, 199);">
+    <h1>
+        My feddback form   
+    </h1>
+
+        <form action="">
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" value="Temur">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" value="nurmurodovtemur84@gmail.com">
+                </li>
+                <li>
+                    <label for="pasword">Passwword</label>
+                    <input type="password" id="pasword" value="">
+                </li>
+            </ul>
+            <p>Please check all the emotions that apply to you</p>
+            <ul style="margin-left: 10px;">
+
+                <li>
+                    <label for="angry">angry</label>
+                    <input type="checkbox" id="angry" checked>
+                </li>
+                <li>
+                    <label for="sad">Sad</label>
+                    <input type="checkbox" id="sad">
+                </li>
+                <li>
+
+                    <label for="happy">Happy</label>
+                    <input type="checkbox" id="happy">
+                </li>
+            </ul>
+            <p>How satisfied were you with our service?</p>
+            <ul style="margin-left: 10px;">
+                <li>
+                    <label for="very">Very satisfied</label>
+                    <input name="login" id="very" type="radio" checked>
+                </li>
+                <li>
+                    <label for="satisfied"> Satisfied</label>
+                    <input name="login" id="satisfied" type="radio">
+                </li>
+                <li>
+                    <label for="didn't care">Didn't care</label>
+                    <input name="login" id="didn't care" type="radio">
+                </li>
+                <li>
+                    <label for="dissatisfied">Dissatisfied</label>
+                    <input name="login" id="dissatisfied" type="radio">
+                </li>
+                <li>
+                    <label for="Very dissatisfied">Very dissatisfied</label>
+                    <input name="login" id="Very dissatisfied" type="radio">
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="comment">Further comments</label>
+                    <textarea style="resize: none;" name="comment" id="comment"></textarea>
+                    <li>
+                      <label for="photo">  Bio photo:</label>
+                      <input type="file " id="photo">
+                      <button style="border-radius: 30px;" type="submit">Choose...</button>
+                    </li>
+                    <li>
+                        <label for="location">Location visited:</label>
+                        <datalist id="location">
+                            <option value="select location">select location</option>
+                            <option value="select location">select location</option>
+                            <option value="select location">select location</option>
+                        </datalist>
+                        <input list="location">
+
+                    </li>
+                </li>
+                <li>
+                    <button style="border-radius: 30px;" type="submit">submit</button>
+                </li>
+            </ul>
+        </form>
+
+
+    </div>
+
+
+</body>
+
+</html>

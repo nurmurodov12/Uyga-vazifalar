@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-1 {
+    width: 700px;
+    height: 100px;
+    background-color: rgb(228, 228, 88);
+    border: 3px dashed orangered;
+    margin: 15px auto;
+}
+
+.box-2 {
+    width: 500px;
+    height: 200px;
+    background-color: aqua;
+    margin: 25px 50px 15px 25px;
+    padding: 35px;
+    border-top: 5px double black;
+    border-bottom: 5px double black;
+
+}
+
+.box-3 {
+    width: 600px;
+    height: 140px;
+    background-color: rgb(206, 133, 15);
+    border: 10px ridge rgb(206, 133, 15);
+
+    margin: 25px 35px 15px 700px;
+    padding: 30px;
+}

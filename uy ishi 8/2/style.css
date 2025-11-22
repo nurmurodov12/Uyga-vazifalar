@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.box-1 {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(141, 142, 142);
+    border: 8px solid rebeccapurple;
+    margin: 25px;
+    padding: 40px 50px 50px 45px;
+    font-size: 32px;
+}
+
+.box-2 {
+    width: 600px;
+    height: 250px;
+    background-color: rgb(141, 142, 142);
+    border: 8px solid rebeccapurple;
+    margin: 25px;
+    padding: 40px 50px 50px 45px;
+    font-size: 32px;
+}
