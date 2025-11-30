@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidde;
+}
+.sun {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: quyosh 10s ease-in-out infinite;
+}
+
+@keyframes quyosh {
+    0% {
+        bottom: 0;
+        background-color: yellow;
+    }
+
+    50% {
+        bottom: 1000px;
+        background-color: orange;
+    }
+
+    100% {
+        bottom: 0;
+        background-color: orangered;
+    }
+}
+
+
+.tog {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    margin: 500px auto;
+    transform: rotate(45deg);
+    z-index: 10;
+
+}
+.tog::before {
+    position: absolute;
+    content: '';
+    width: 550px;
+    height: 400px;
+   
+    top: 150px;
+    left: -350px;
+    right: -500px;
+    background-color: skyblue;
+    z-index: 10;
+}
+
+
+.tog::after {
+    z-index: 10;
+    position: absolute;
+    content: '';
+    width: 400px;
+    height: 550px;
+   
+    top: -250px;
+    left: 150px;
+    right: 400px;
+    background-color: skyblue;
+}
+
+.img {
+    position: relative;
+    z-index: 11;
+    animation-name: img;
+    animation-duration: 6s;
+    animation-timing-function:  ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.img2 {
+    position: relative;
+    top: 100px;
+    z-index: 11;
+    animation-name: img;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.img3 {
+    position: relative;
+    top: 200px;
+    z-index: 11;
+    animation-name: img;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes img {
+    from {
+        left: 0;
+
+    }
+
+    to {
+        left: 100vw;
+    }
+}
